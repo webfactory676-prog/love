@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Heart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <input type="text" id="name-input" placeholder="Enter Name" maxlength="12">
+        <button id="update-btn">Update</button>
+        <button id="reset-btn">Reset</button>
+        <button id="share-btn">Share</button>
+        <button id="music-btn">Play Music</button>
+    </div>
+    <div id="bg-lips"></div>
+    <div class="heart-wrapper">
+        <div class="heart-3d" id="heart-container"></div>
+    </div> 
+    <button id="anim-btn">Change Animation</button>
+    <audio id="bg-music" src="assets/music.mp3" loop autoplay></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
