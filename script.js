@@ -142,3 +142,4 @@ document.body.addEventListener('click', () => {
         musicBtn.textContent = "Pause Music";
     }
 }, { once: true });
+
